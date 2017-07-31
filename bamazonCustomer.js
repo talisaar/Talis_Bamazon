@@ -102,40 +102,6 @@ connection.query('SELECT stock_quantity as quantity FROM products WHERE item_id 
     
 
 
+// Just adding stupid stuff
 
 
-
-
-
-
-// function getAllArtists() {
-//    console.log("Selecting all products...\n");
-//    connection.query("SELECT artist_name, COUNT(*) c FROM Top5000 GROUP BY artist_name HAVING c > 1;", function(err, res) {
-//        if (err) throw err;
-//        // Log all results of the SELECT statement
-//        console.log(res);
-//        connection.end();
-//    });
-// }
-
-
-// function getDataByRange() {
-//    console.log("Selecting all products...\n");
-//    connection.query("select * from Top5000 where id between '2' and '5' order by id desc;", function(err, res) {
-//        if (err) throw err;
-//        // Log all results of the SELECT statement
-//        console.log(res);
-//        connection.end();
-//    });
-// }
-
-
-// function getDataBySong() {
-//    console.log("Selecting all products...\n");
-//    connection.query("select * from Top5000 where song = 'Like a Virgin';", function(err, res) {
-//        if (err) throw err;
-//        // Log all results of the SELECT statement
-//        console.log(res);
-//        connection.end();
-//    });
-// }
